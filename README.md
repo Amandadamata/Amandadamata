@@ -1,4 +1,4 @@
-# Hi, I'm Amanda
+# Hi, I'm Amanda da Mata
 
 I'm a Systems Analysis and Development student in Brazil, currently focused on Java and back-end fundamentals. I began studying programming before starting my degree and am now turning that foundation into practical, tested, and documented projects.
 
