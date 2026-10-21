@@ -1,82 +1,81 @@
-<p align="center">
-  <img src="./assets/amanda-da-mata-banner.png" width="100%" alt="Amanda da Mata — Java, back-end and software development">
-</p>
+# Amanda da Mata
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/amanda-da-mata-492106288/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://github.com/Amandadamata/vetcare-scheduler-java"><img src="https://img.shields.io/badge/Featured_Project-VetCare_Scheduler-4A4A98?style=for-the-badge&logo=github&logoColor=white" alt="VetCare Scheduler"></a>
-  <img src="https://img.shields.io/badge/Open_to-Software_Development_Internships-243B53?style=for-the-badge" alt="Open to software development internships">
-</p>
+Systems Analysis and Development student in Brazil, focused on **back-end development with Java and Python**.
+I am looking for a **remote software engineering internship or junior role**.
 
-## About me
+I build small applications with real business rules, automated tests, continuous integration, and documentation that explains *why* the code is written the way it is.
 
-I'm a Systems Analysis and Development student in Brazil, currently focused on **Java and back-end fundamentals**. I began studying programming before starting my degree and am now turning that foundation into practical, tested, and documented projects.
+[LinkedIn](https://www.linkedin.com/in/amanda-da-mata-492106288/) · [Projects](#projects) · [Versão em português](#versão-em-português)
 
-| | |
+---
+
+## Projects
+
+### [VetCare Scheduler](https://github.com/Amandadamata/vetcare-scheduler-java) · Java 21
+
+Command-line application for veterinary appointments: calculates a triage priority, prevents overlapping bookings, and stores data locally as JSON.
+
+- Layered design (`cli`, `service`, `repository`, `persistence`, `model`) wired by constructor injection
+- Interval-based conflict detection that allows back-to-back appointments
+- Data loaded from disk is validated before use; a damaged file is reported and never overwritten
+- JUnit 5 tests for services, persistence, invalid data and complete menu sessions; GitHub Actions CI
+
+[Architecture](https://github.com/Amandadamata/vetcare-scheduler-java/blob/main/docs/ARCHITECTURE.md) · [Design decisions](https://github.com/Amandadamata/vetcare-scheduler-java/blob/main/docs/DESIGN_DECISIONS.md) · [Tests](https://github.com/Amandadamata/vetcare-scheduler-java/blob/main/docs/TESTING.md)
+
+### [Banking System](https://github.com/Amandadamata/sistema-bancario-java) · Java 17
+
+Command-line banking application with checking and savings accounts.
+
+- Exact money arithmetic with `BigDecimal` and explicit rounding (`HALF_EVEN`)
+- Overdraft implemented through polymorphism; operations validate everything before changing any balance
+- Monthly savings yield tested with an injected `Clock`
+- JUnit 5 tests for business rules and menu flows; CI on Java 17 and 21
+
+[Architecture](https://github.com/Amandadamata/sistema-bancario-java/blob/main/docs/ARCHITECTURE.md) · [Design decisions](https://github.com/Amandadamata/sistema-bancario-java/blob/main/docs/DESIGN_DECISIONS.md) · [Tests](https://github.com/Amandadamata/sistema-bancario-java/blob/main/docs/TESTING.md)
+
+## Skills
+
+| Used in these projects | Currently studying |
 |---|---|
-| **Main focus** | Java, object-oriented programming, and back-end development |
-| **How I learn** | Building projects with business rules, persistence, tests, and documentation |
-| **What I'm looking for** | My first software development internship, especially with Java and back-end |
+| Java (17, 21), object-oriented programming, collections, `java.time` | Python |
+| JUnit 5, Maven, Gson | SQL and relational databases |
+| Git, pull requests, GitHub Actions | REST APIs |
 
-## Featured project
+## How I work
 
-<a href="https://github.com/Amandadamata/vetcare-scheduler-java">
-  <img src="./assets/vetcare-scheduler-card.png" width="100%" alt="VetCare Scheduler — Java 21 project with 30 automated tests, triage priority and schedule conflict detection">
-</a>
+- I work with pull requests that describe the problem, the fix, and how it was tested.
+- Tests check behavior, including what must **not** change when an operation fails.
+- Known limitations are written down in each README instead of being hidden.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-21-4A4A98?style=flat-square&logo=openjdk&logoColor=white" alt="Java 21">
-  <a href="https://github.com/Amandadamata/vetcare-scheduler-java/actions/workflows/ci.yml"><img src="https://github.com/Amandadamata/vetcare-scheduler-java/actions/workflows/ci.yml/badge.svg" alt="Java CI status"></a>
-  <img src="https://img.shields.io/badge/Tests-30_passing-25A162?style=flat-square&logo=junit5&logoColor=white" alt="30 tests passing">
-  <img src="https://img.shields.io/github/license/Amandadamata/vetcare-scheduler-java?style=flat-square&color=4A4A98" alt="MIT license">
-</p>
+## Background
 
-**VetCare Scheduler** is a command-line application for veterinary appointment management. I used a familiar domain to practice software development through real rules rather than a basic CRUD exercise.
+Before moving into technology, I worked as an English teacher. That experience shaped how I communicate and how I document my work.
 
-- Calculates `EMERGENCY`, `URGENT`, and `STANDARD` triage priority
-- Prevents overlapping appointments while allowing adjacent time slots
-- Persists clinic data locally as JSON
-- Separates models, repositories, services, persistence, and the CLI
-- Runs 30 automated tests with JUnit 5 and continuous integration
+---
 
-**[Explore the code](https://github.com/Amandadamata/vetcare-scheduler-java)** · **[Read the project walkthrough](https://github.com/Amandadamata/vetcare-scheduler-java/blob/main/docs/PROJECT_WALKTHROUGH.md)** · **[View the CI](https://github.com/Amandadamata/vetcare-scheduler-java/actions)**
+## Versão em português
 
-## Tech stack
+<details>
+<summary>Ler em português</summary>
 
-### Building with
+<br>
 
-<p>
-  <img src="https://img.shields.io/badge/Java_21-4A4A98?style=flat-square&logo=openjdk&logoColor=white" alt="Java 21">
-  <img src="https://img.shields.io/badge/Apache_Maven-243B53?style=flat-square&logo=apachemaven&logoColor=white" alt="Apache Maven">
-  <img src="https://img.shields.io/badge/JUnit_5-25A162?style=flat-square&logo=junit5&logoColor=white" alt="JUnit 5">
-  <img src="https://img.shields.io/badge/Gson-4A4A98?style=flat-square" alt="Gson">
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
-</p>
+Sou estudante de **Análise e Desenvolvimento de Sistemas** no Brasil, com foco em **desenvolvimento back-end com Java e Python**. Busco **estágio ou vaga júnior remota** em engenharia de software.
 
-### Foundations and current learning
+Desenvolvo aplicações pequenas com regras de negócio reais, testes automatizados, integração contínua e documentação que explica *por que* o código foi escrito daquela forma.
 
-<p>
-  <img src="https://img.shields.io/badge/Python-Foundations-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python foundations">
-  <img src="https://img.shields.io/badge/SQL-Foundations-336791?style=flat-square" alt="SQL foundations">
-  <img src="https://img.shields.io/badge/REST_APIs-Concepts-4A4A98?style=flat-square" alt="REST API concepts">
-  <img src="https://img.shields.io/badge/Spring_Boot-Learning-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Learning Spring Boot">
-</p>
+**Projetos**
 
-I describe these as foundations or current learning intentionally: my goal is to show real progress without presenting theoretical knowledge as professional experience.
+- [VetCare Scheduler](https://github.com/Amandadamata/vetcare-scheduler-java) (Java 21): agenda veterinária com prioridade de triagem, detecção de conflitos de horário e persistência em JSON validada ao carregar. Arquitetura em camadas, testes JUnit 5 e CI.
+- [Sistema Bancário](https://github.com/Amandadamata/sistema-bancario-java) (Java 17): contas corrente e poupança com valores monetários exatos (`BigDecimal`), cheque especial por polimorfismo e rendimento mensal testado com `Clock` injetado. Testes JUnit 5 e CI com Java 17 e 21.
 
-## Beyond code
+Cada projeto tem README em inglês e em português.
 
-Before moving into technology, I worked as an English teacher. That experience strengthened my communication, organization, and ability to explain ideas clearly. My previous academic background also inspired the domain of VetCare Scheduler, while the project itself remains focused on software engineering.
+**Uso nos projetos:** Java, orientação a objetos, JUnit 5, Maven, Gson, Git e GitHub Actions.
+**Estudando:** Python, SQL e APIs REST.
 
-## GitHub activity
+Antes da tecnologia, trabalhei como professora de inglês.
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Amandadamata&theme=tokyonight" width="100%" alt="Amanda da Mata's GitHub contribution summary">
-</p>
+[LinkedIn](https://www.linkedin.com/in/amanda-da-mata-492106288/)
 
-## Let's connect
-
-I'm looking for my first internship opportunity in software development, where I can continue learning while contributing to a team and real projects.
-
-**[Connect with me on LinkedIn](https://www.linkedin.com/in/amanda-da-mata-492106288/)**
+</details>
