@@ -18,7 +18,7 @@ Command-line application for veterinary appointments: calculates a triage priori
 - Layered design (`cli`, `service`, `repository`, `persistence`, `model`) wired by constructor injection
 - Interval-based conflict detection that allows back-to-back appointments
 - Data loaded from disk is validated before use; a damaged file is reported and never overwritten
-- JUnit 6 tests for services, persistence, invalid data and complete menu sessions; GitHub Actions CI
+- JUnit 6 tests for services, persistence, invalid data and complete menu sessions; CI on Java 21 and 25
 
 [Architecture](https://github.com/Amandadamata/vetcare-scheduler-java/blob/main/docs/ARCHITECTURE.md) · [Design decisions](https://github.com/Amandadamata/vetcare-scheduler-java/blob/main/docs/DESIGN_DECISIONS.md) · [Tests](https://github.com/Amandadamata/vetcare-scheduler-java/blob/main/docs/TESTING.md)
 
@@ -29,7 +29,7 @@ Command-line banking application with checking and savings accounts.
 - Exact money arithmetic with `BigDecimal` and explicit rounding (`HALF_EVEN`)
 - Overdraft implemented through polymorphism; operations validate everything before changing any balance
 - Monthly savings yield tested with an injected `Clock`
-- JUnit 6 tests for business rules and menu flows; CI on Java 17 and 21
+- JUnit 6 tests for business rules and menu flows; CI on Java 17, 21 and 25
 
 [Architecture](https://github.com/Amandadamata/sistema-bancario-java/blob/main/docs/ARCHITECTURE.md) · [Design decisions](https://github.com/Amandadamata/sistema-bancario-java/blob/main/docs/DESIGN_DECISIONS.md) · [Tests](https://github.com/Amandadamata/sistema-bancario-java/blob/main/docs/TESTING.md)
 
@@ -67,7 +67,7 @@ Desenvolvo aplicações pequenas com regras de negócio reais, testes automatiza
 **Projetos**
 
 - [VetCare Scheduler](https://github.com/Amandadamata/vetcare-scheduler-java) (Java 21): agenda veterinária com prioridade de triagem, detecção de conflitos de horário e persistência em JSON validada ao carregar. Arquitetura em camadas, testes JUnit 6 e CI.
-- [Sistema Bancário](https://github.com/Amandadamata/sistema-bancario-java) (Java 17): contas corrente e poupança com valores monetários exatos (`BigDecimal`), cheque especial por polimorfismo e rendimento mensal testado com `Clock` injetado. Testes JUnit 6 e CI com Java 17 e 21.
+- [Sistema Bancário](https://github.com/Amandadamata/sistema-bancario-java) (Java 17): contas corrente e poupança com valores monetários exatos (`BigDecimal`), cheque especial por polimorfismo e rendimento mensal testado com `Clock` injetado. Testes JUnit 6 e CI com Java 17, 21 e 25.
 
 Cada projeto tem README em inglês e em português.
 
