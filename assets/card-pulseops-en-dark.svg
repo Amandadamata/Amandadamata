@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="220" viewBox="0 0 400 220" role="img" aria-label="PulseOps">
+<style>
+.name{font:700 26px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#D8F3DC}
+.desc{font:400 17.5px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#B7E4C7}
+.lang{font:600 15px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#74C69D}
+.chip{font:600 14px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#D8F3DC}
+.foot{font:500 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#74C69D}
+</style>
+<rect x="1" y="1" width="398" height="218" rx="16" fill="#0F1F17" stroke="#2D6A4F" stroke-width="2"/>
+<circle cx="31" cy="33" r="7" fill="#3572A5"/>
+<text x="46" y="38.5" class="lang">Python</text>
+<text x="24" y="76" class="name">PulseOps</text>
+<text x="24" y="106" class="desc">Checks if APIs are up and opens an</text>
+<text x="24" y="128" class="desc">incident after 3 failures in a row.</text>
+<rect x="24" y="145" width="80" height="28" rx="14" fill="#1B4332"/><text x="64" y="163.5" text-anchor="middle" class="chip">FastAPI</text><rect x="112.19999999999999" y="145" width="106" height="28" rx="14" fill="#1B4332"/><text x="165" y="163.5" text-anchor="middle" class="chip">PostgreSQL</text><rect x="226.2" y="145" width="72" height="28" rx="14" fill="#1B4332"/><text x="262" y="163.5" text-anchor="middle" class="chip">Docker</text>
+<line x1="24" y1="187" x2="376" y2="187" stroke="#2D6A4F" stroke-width="1"/>
+<text x="24" y="208" class="foot">251 tests · GitHub Actions</text>
+<text x="376" y="208" text-anchor="end" class="foot">→</text>
+</svg>
