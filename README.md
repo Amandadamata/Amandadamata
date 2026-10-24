@@ -1,84 +1,86 @@
-# Amanda da Mata
+<img width="100%" src="https://capsule-render.vercel.app/api?type=wave&color=A8D5BA&height=230&section=header&text=Amanda%20da%20Mata&fontSize=44&fontColor=1B4332&fontAlignY=26&desc=Back-End%20Developer%20%C2%B7%20Java%20%C2%B7%20Python&descSize=18&descAlignY=43" alt="Amanda da Mata, Back-End Developer"/>
 
-Systems Analysis and Development student in Brazil, focused on **back-end development with Java and Python**.
-I am looking for a **remote software engineering internship or junior role**.
+<p align="center"><strong>English</strong> · <a href="README.pt-BR.md">Português</a></p>
 
-I build small applications with real business rules, automated tests, continuous integration, and documentation that explains *why* the code is written the way it is.
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&pause=1400&color=A8D5BA&center=true&vCenter=true&width=620&lines=Java+%C2%B7+Python+%C2%B7+SQL;JUnit+6+%C2%B7+pytest+%C2%B7+GitHub+Actions">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&pause=1400&color=2D6A4F&center=true&vCenter=true&width=620&lines=Java+%C2%B7+Python+%C2%B7+SQL;JUnit+6+%C2%B7+pytest+%C2%B7+GitHub+Actions" alt="Java · Python · SQL"/>
+</picture>
+</p>
 
-[LinkedIn](https://www.linkedin.com/in/amanda-da-mata-492106288/) · [Projects](#projects) · [Versão em português](#versão-em-português)
+Hi, I'm Amanda 👋
 
----
+I write back-end code in Java and Python. I started programming before college, and now I'm in my first semester of Systems Analysis and Development at UNINTER.
+
+From 2023 to 2026 I taught English, at Yázigi and then at Red Balloon. I still like explaining things, so my READMEs tend to be detailed.
+
+I live in Goiânia, Brazil, and I'm looking for a remote internship or junior role. I can work in Portuguese or English.
 
 ## Projects
 
-### [VetCare Scheduler](https://github.com/Amandadamata/vetcare-scheduler-java) · Java 21
+| Project | What it does | Stack |
+|---|---|---|
+| [**PulseOps**](https://github.com/Amandadamata/Pulse-Ops) | Checks whether APIs are up. Three failures in a row open an incident, and each change is saved with the reason. | Python · FastAPI · PostgreSQL · Docker · 251 tests |
+| [**Banking System**](https://github.com/Amandadamata/sistema-bancario-java) | Checking and savings accounts with overdraft, monthly interest and transfers. Money in `BigDecimal`, data in SQLite. | Java 17 · OOP · SQLite · JUnit 6 · 135 tests |
+| [**VetCare Scheduler**](https://github.com/Amandadamata/vetcare-scheduler-java) | Appointment booking for a vet clinic. It refuses double bookings and sorts the day's queue by urgency. | Java 21 · JSON · JUnit 6 · 123 tests |
 
-Command-line application for veterinary appointments: one schedule per vet or room, a calculated triage priority, an appointment life cycle, and deletion or anonymization of personal data. Data is stored locally as JSON.
+PulseOps was generated with Claude Code from a spec I wrote. Its README says which part was mine and which part was the AI's.
 
-- Layered design (`cli`, `service`, `repository`, `persistence`, `model`) wired by constructor injection
-- Conflicts checked per schedule; back-to-back appointments allowed
-- Appointment status as a state machine (scheduled → completed, no-show, or cancelled)
-- Deletion and anonymization that keep every reference valid and are undone if saving fails
-- Older data files migrated automatically after validation and a backup
-- JUnit 6 tests, including a real file from the previous release and complete menu sessions; CI on Java 21 and 25
+## Tech stack
 
-[Architecture](https://github.com/Amandadamata/vetcare-scheduler-java/blob/main/docs/ARCHITECTURE.md) · [Design decisions](https://github.com/Amandadamata/vetcare-scheduler-java/blob/main/docs/DESIGN_DECISIONS.md) · [Tests](https://github.com/Amandadamata/vetcare-scheduler-java/blob/main/docs/TESTING.md)
+**Languages**<br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,python&theme=dark">
+  <img src="https://skillicons.dev/icons?i=java,python&theme=light" alt="Java, Python"/>
+</picture>
 
-### [Banking System](https://github.com/Amandadamata/sistema-bancario-java) · Java 17
+**Testing & build** · JUnit 6, pytest, Maven, GitHub Actions<br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=maven,githubactions&theme=dark">
+  <img src="https://skillicons.dev/icons?i=maven,githubactions&theme=light" alt="Maven, GitHub Actions"/>
+</picture>
 
-Command-line banking application with checking and savings accounts, CPF validation, and SQLite persistence.
+**Databases** · SQL with SQLite and PostgreSQL<br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=sqlite,postgres&theme=dark">
+  <img src="https://skillicons.dev/icons?i=sqlite,postgres&theme=light" alt="SQLite, PostgreSQL"/>
+</picture>
 
-- Exact money arithmetic with `BigDecimal`; money stored as integer cents in the database
-- Each operation saved in one JDBC transaction, so a transfer is stored on both sides or neither
-- Changes undone in memory if saving fails; stored statements re-checked against balances on load
-- CPF check digits validated, with the full number never shown in messages
-- Unit and integration tests with a real SQLite file; CI on Java 17, 21 and 25
+**Tools**<br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=idea,vscode,git,github,postman&theme=dark">
+  <img src="https://skillicons.dev/icons?i=idea,vscode,git,github,postman&theme=light" alt="IntelliJ IDEA, VS Code, Git, GitHub, Postman"/>
+</picture>
 
-[Architecture](https://github.com/Amandadamata/sistema-bancario-java/blob/main/docs/ARCHITECTURE.md) · [Design decisions](https://github.com/Amandadamata/sistema-bancario-java/blob/main/docs/DESIGN_DECISIONS.md) · [Tests](https://github.com/Amandadamata/sistema-bancario-java/blob/main/docs/TESTING.md)
+**Learning now** · Spring Boot and REST APIs in Java<br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=spring&theme=dark">
+  <img src="https://skillicons.dev/icons?i=spring&theme=light" alt="Spring Boot (learning)"/>
+</picture>
 
-## Skills
+## Things you'll find in my repos
 
-| Used in these projects | Currently studying |
-|---|---|
-| Java (17, 21), object-oriented programming, collections, `java.time` | Python |
-| SQL with SQLite and JDBC, transactions | REST APIs |
-| JUnit 6, Maven, Gson, Git, pull requests, GitHub Actions | |
+- Tests next to the code. In the Java projects I use JUnit 6, with parameterized tests for invalid input.
+- A GitHub Actions workflow that runs the tests on every push.
+- Pull requests that say what changed and how it was tested.
+- A section in each README listing what the project doesn't do yet.
 
-## How I work
+AI is part of how I work. I use ChatGPT, Codex and Claude to write and review code, track down bugs and study, and the commits show it.
 
-- I work with pull requests that describe the problem, the fix, and how it was tested.
-- Tests check behavior, including what must **not** change when an operation fails.
-- Known limitations are written down in each README instead of being hidden.
+## Education & certifications
 
-## Background
+**Systems Analysis and Development (ADS)** · UNINTER · 2026 to present
 
-Before moving into technology, I worked as an English teacher. That experience shaped how I communicate and how I document my work.
+- CS50's Introduction to Programming with Python (CS50P) · Harvard
+- API Fundamentals Student Expert · Postman
+- Relational Database · freeCodeCamp
+- Introduction to GitHub · GitHub Skills
+- SQLBolt · Algorithms and Programming Logic (Curso em Vídeo) · Software Engineering (Gabriel Pacheco)
 
----
+## Contact
 
-## Versão em português
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Amanda%20da%20Mata-A8D5BA?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1B4332)](https://www.linkedin.com/in/amanda-da-mata-492106288)
+[![Email](https://img.shields.io/badge/Email-Contact%20me-A8D5BA?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1B4332)](mailto:amandadamataprofissional@gmail.com)
 
-<details>
-<summary>Ler em português</summary>
-
-<br>
-
-Sou estudante de **Análise e Desenvolvimento de Sistemas** no Brasil, com foco em **desenvolvimento back-end com Java e Python**. Busco **estágio ou vaga júnior remota** em engenharia de software.
-
-Desenvolvo aplicações pequenas com regras de negócio reais, testes automatizados, integração contínua e documentação que explica *por que* o código foi escrito daquela forma.
-
-**Projetos**
-
-- [VetCare Scheduler](https://github.com/Amandadamata/vetcare-scheduler-java) (Java 21): agenda veterinária com uma agenda por veterinário ou sala, prioridade de triagem, ciclo de vida das consultas, exclusão e anonimização de dados pessoais e persistência em JSON com migração de arquivos antigos. Arquitetura em camadas, testes JUnit 6 e CI.
-- [Sistema Bancário](https://github.com/Amandadamata/sistema-bancario-java) (Java 17): contas corrente e poupança com valores exatos (`BigDecimal`), validação de CPF e persistência em SQLite com uma transação JDBC por operação. Testes de unidade e de integração e CI com Java 17, 21 e 25.
-
-Cada projeto tem README em inglês e em português.
-
-**Uso nos projetos:** Java, orientação a objetos, SQL com SQLite e JDBC, JUnit 6, Maven, Gson, Git e GitHub Actions.
-**Estudando:** Python e APIs REST.
-
-Antes da tecnologia, trabalhei como professora de inglês.
-
-[LinkedIn](https://www.linkedin.com/in/amanda-da-mata-492106288/)
-
-</details>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=wave&color=A8D5BA&height=100&section=footer" alt=""/>
