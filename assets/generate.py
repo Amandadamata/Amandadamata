@@ -20,6 +20,12 @@ SANS = "-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
 MONO = "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
 
 PROJECTS = {
+    "tickets": {
+        "name": "Ticket Booking API", "lang": "Java",
+        "en": ("Sells event tickets without ever", "selling the same seat twice.", "33 tests · GitHub Actions"),
+        "pt": ("Vende ingressos sem nunca vender", "o mesmo lugar duas vezes.", "33 testes · GitHub Actions"),
+        "chips": ["Spring Boot", "PostgreSQL", "Flyway"],
+    },
     "pulseops": {
         "name": "PulseOps", "lang": "Python",
         "en": ("Checks if APIs are up and opens an", "incident after 3 failures in a row.", "251 tests · GitHub Actions"),
@@ -42,12 +48,16 @@ PROJECTS = {
 
 HERO = {
     "en": [("name", "Amanda da Mata"), ("role", "Back-End developer · Java and Python"),
-           ("based in", "Goiânia, Brazil · open to remote work"), ("speaks", "Portuguese and English"),
-           ("before", "English teacher for 2 years"), ("studying", "ADS at UNINTER, 1st semester"),
+           ("based in", "Goiânia, Brazil · open to remote work"),
+           ("next", "IT degree in Italy, 2027 (CEnT-S)"),
+           ("speaks", "English (B2) and Portuguese"), ("before", "English teacher for 2 years"),
+           ("studying", "ADS at UNINTER, 1st semester"),
            ("looking for", "an internship or a junior role")],
     "pt": [("nome", "Amanda da Mata"), ("área", "Back-End · Java e Python"),
-           ("mora em", "Goiânia (GO) · aberta a vagas remotas"), ("idiomas", "português e inglês"),
-           ("antes", "professora de inglês por 2 anos"), ("estuda", "ADS na UNINTER, 1º semestre"),
+           ("mora em", "Goiânia (GO) · aberta a vagas remotas"),
+           ("próximo", "faculdade de TI na Itália, 2027"),
+           ("idiomas", "português e inglês (B2)"), ("antes", "professora de inglês por 2 anos"),
+           ("estuda", "ADS na UNINTER, 1º semestre"),
            ("procura", "estágio ou vaga júnior")],
 }
 
