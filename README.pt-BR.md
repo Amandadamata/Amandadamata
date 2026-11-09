@@ -3,7 +3,7 @@
 <p align="center"><a href="README.md">English</a> · <strong>Português</strong></p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Amandadamata/Amandadamata/main/assets/hero-pt.svg" width="640" alt="$ java SobreMim.java. Nome: Amanda da Mata. Área: Back-End, Java e Python. Mora em Goiânia (GO), aberta a vagas remotas. Próximo: faculdade de TI na Itália, 2027. Idiomas: português e inglês (B2). Antes: professora de inglês por 2 anos. Estuda ADS na UNINTER, 1º semestre. Procura estágio ou vaga júnior."/>
+  <img src="https://raw.githubusercontent.com/Amandadamata/Amandadamata/main/assets/hero-pt.svg" width="640" alt="$ java SobreMim.java. Nome: Amanda da Mata. Área: Back-End, Java e Python. Mora em Goiânia (GO), aberta a vagas remotas. Idiomas: português e inglês (B2). Antes: professora de inglês por 2 anos. Estuda ADS na UNINTER, 1º semestre. Procura estágio ou vaga júnior."/>
 </p>
 
 <p align="center">

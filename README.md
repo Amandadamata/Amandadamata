@@ -3,7 +3,7 @@
 <p align="center"><strong>English</strong> · <a href="README.pt-BR.md">Português</a></p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Amandadamata/Amandadamata/main/assets/hero-en.svg" width="640" alt="$ java AboutMe.java. Name: Amanda da Mata. Role: Back-End developer, Java and Python. Based in Goiânia, Brazil, open to remote work. Next: IT degree in Italy, 2027 (CEnT-S). Speaks English (B2) and Portuguese. Before: English teacher for 2 years. Studying ADS at UNINTER, 1st semester. Looking for an internship or a junior role."/>
+  <img src="https://raw.githubusercontent.com/Amandadamata/Amandadamata/main/assets/hero-en.svg" width="640" alt="$ java AboutMe.java. Name: Amanda da Mata. Role: Back-End developer, Java and Python. Based in Goiânia, Brazil, open to remote work. Speaks English (B2) and Portuguese. Before: English teacher for 2 years. Studying ADS at UNINTER, 1st semester. Looking for an internship or a junior role."/>
 </p>
 
 <p align="center">

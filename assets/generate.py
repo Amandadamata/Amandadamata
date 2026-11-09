@@ -49,13 +49,11 @@ PROJECTS = {
 HERO = {
     "en": [("name", "Amanda da Mata"), ("role", "Back-End developer · Java and Python"),
            ("based in", "Goiânia, Brazil · open to remote work"),
-           ("next", "IT degree in Italy, 2027 (CEnT-S)"),
            ("speaks", "English (B2) and Portuguese"), ("before", "English teacher for 2 years"),
            ("studying", "ADS at UNINTER, 1st semester"),
            ("looking for", "an internship or a junior role")],
     "pt": [("nome", "Amanda da Mata"), ("área", "Back-End · Java e Python"),
            ("mora em", "Goiânia (GO) · aberta a vagas remotas"),
-           ("próximo", "faculdade de TI na Itália, 2027"),
            ("idiomas", "português e inglês (B2)"), ("antes", "professora de inglês por 2 anos"),
            ("estuda", "ADS na UNINTER, 1º semestre"),
            ("procura", "estágio ou vaga júnior")],
