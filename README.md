@@ -18,7 +18,7 @@ I'm a back-end developer in training. I write Java and Python, and the part I en
 
 Before tech, I taught English for two years, at Yázigi and Red Balloon. I work in English comfortably (B2, Duolingo English Test 125), and teaching left me with habits I now use in code every day. There's more about that below.
 
-I'm in my first semester of Systems Analysis and Development at UNINTER, and I live in Goiânia, Brazil. I'm looking for a remote internship or a junior back-end role. I'm also preparing for the CEnT-S, the admission test for Italian universities, to start an IT degree in Italy in 2027, so I'm open to on-site roles there too.
+I'm in my first semester of Systems Analysis and Development at UNINTER, and I live in Goiânia, Brazil. I'm looking for a remote internship or a junior back-end role, full-time or part-time. Remote work is a real commitment for me: I've taught online, I organize my own work every day, and I can work European business hours. I plan to study IT in Italy and I'm preparing for the CEnT-S, the admission test for Italian universities, so I'm also open to relocating.
 
 ## Projects
 
@@ -31,7 +31,7 @@ I'm in my first semester of Systems Analysis and Development at UNINTER, and I l
   <a href="https://github.com/Amandadamata/vetcare-scheduler-java"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Amandadamata/Amandadamata/main/assets/card-vetcare-en-dark.svg"><img src="https://raw.githubusercontent.com/Amandadamata/Amandadamata/main/assets/card-vetcare-en-light.svg" width="48%" alt="VetCare Scheduler: Java. Books vet appointments, refuses double bookings, sorts by urgency. Java 21, Gson, JUnit 6. 123 tests."/></picture></a>
 </p>
 
-<sub>Click a card to open the project. PulseOps was generated with Claude Code from a spec I wrote, and its README says which part was mine and which was the AI's.</sub>
+<sub>Click a card to open the project. VetCare was my first project, built for a veterinary clinic in Goiânia from requirements I gathered with the team. PulseOps was generated with Claude Code from a spec I wrote, and its README says which part was mine and which was the AI's.</sub>
 
 ## From the classroom to the code
 
@@ -49,8 +49,8 @@ I'm in my first semester of Systems Analysis and Development at UNINTER, and I l
 - **Code:** Java (3 projects, 309 JUnit 6 tests, one in Spring Boot) and Python (1 project, 251 pytest tests)
 - **Also used in my projects:** SQL with PostgreSQL and SQLite, Flyway, Maven, Git, GitHub Actions, Docker
 - **English:** B2 (Duolingo English Test 125), two years teaching it
-- **Studying:** ADS at UNINTER (1st semester), and the CEnT-S to study IT in Italy from 2027
-- **Looking for:** a remote internship or junior back-end role, or on site in Italy
+- **Studying:** ADS at UNINTER (1st semester), and the CEnT-S, because I plan to study IT in Italy
+- **Looking for:** a remote internship or junior back-end role, full-time or part-time, in European hours if needed. Open to relocating
 
 </details>
 

@@ -18,7 +18,7 @@ Sou desenvolvedora back-end em formação. Programo em Java e Python, e o que eu
 
 Antes da tecnologia, dei aula de inglês por dois anos, no Yázigi e na Red Balloon. Trabalho em inglês com tranquilidade (B2, Duolingo English Test 125), e a sala de aula me deixou hábitos que uso no código todos os dias. Conto mais sobre isso logo abaixo.
 
-Estou no primeiro semestre de Análise e Desenvolvimento de Sistemas na UNINTER e moro em Goiânia (GO). Procuro estágio ou vaga júnior remota em back-end. Também estou me preparando para o CEnT-S, a prova de admissão das universidades italianas, para começar uma faculdade de TI na Itália em 2027, então também tenho interesse em vagas presenciais por lá.
+Estou no primeiro semestre de Análise e Desenvolvimento de Sistemas na UNINTER e moro em Goiânia (GO). Procuro estágio ou vaga júnior remota em back-end, em tempo integral ou meio período. Trabalhar remoto é um compromisso sério para mim: já dei aula online, organizo meu próprio trabalho todos os dias e consigo trabalhar no horário europeu. Pretendo estudar TI na Itália e estou me preparando para o CEnT-S, a prova de admissão das universidades italianas, então também estou aberta a me mudar.
 
 ## Projetos
 
@@ -31,7 +31,7 @@ Estou no primeiro semestre de Análise e Desenvolvimento de Sistemas na UNINTER 
   <a href="https://github.com/Amandadamata/vetcare-scheduler-java/blob/main/README.pt-BR.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Amandadamata/Amandadamata/main/assets/card-vetcare-pt-dark.svg"><img src="https://raw.githubusercontent.com/Amandadamata/Amandadamata/main/assets/card-vetcare-pt-light.svg" width="48%" alt="VetCare Scheduler: Java. Agenda consultas veterinárias, recusa horário duplicado e ordena por urgência. Java 21, Gson, JUnit 6. 123 testes."/></picture></a>
 </p>
 
-<sub>Clique num card para abrir o projeto. O PulseOps foi gerado com o Claude Code a partir de uma especificação que eu escrevi, e o README dele explica o que foi feito por mim e o que foi feito pela IA.</sub>
+<sub>Clique num card para abrir o projeto. O VetCare foi meu primeiro projeto, feito para uma clínica veterinária de Goiânia a partir de requisitos que levantei com a equipe. O PulseOps foi gerado com o Claude Code a partir de uma especificação que eu escrevi, e o README dele explica o que foi feito por mim e o que foi feito pela IA.</sub>
 
 ## Da sala de aula para o código
 
@@ -49,8 +49,8 @@ Estou no primeiro semestre de Análise e Desenvolvimento de Sistemas na UNINTER 
 - **Código:** Java (3 projetos, 309 testes JUnit 6, um deles em Spring Boot) e Python (1 projeto, 251 testes com pytest)
 - **Também uso nos projetos:** SQL com PostgreSQL e SQLite, Flyway, Maven, Git, GitHub Actions, Docker
 - **Inglês:** B2 (Duolingo English Test 125), dois anos dando aula
-- **Estudando:** ADS na UNINTER (1º semestre) e o CEnT-S, para estudar TI na Itália a partir de 2027
-- **Procuro:** estágio ou vaga júnior remota em back-end, ou presencial na Itália
+- **Estudando:** ADS na UNINTER (1º semestre) e o CEnT-S, porque pretendo estudar TI na Itália
+- **Procuro:** estágio ou vaga júnior remota em back-end, em tempo integral ou meio período, no horário europeu se precisar. Aberta a mudança
 
 </details>
 
