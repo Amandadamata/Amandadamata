@@ -28,8 +28,8 @@ PROJECTS = {
     },
     "banking": {
         "name": "Banking System", "pt_name": "Sistema Bancário", "lang": "Java",
-        "en": ("Checking and savings accounts with", "overdraft, interest and transfers.", "135 tests · GitHub Actions"),
-        "pt": ("Conta corrente e poupança, com cheque", "especial, rendimento e transferências.", "135 testes · GitHub Actions"),
+        "en": ("Checking and savings accounts with", "overdraft, interest and transfers.", "153 tests · GitHub Actions"),
+        "pt": ("Conta corrente e poupança, com cheque", "especial, rendimento e transferências.", "153 testes · GitHub Actions"),
         "chips": ["BigDecimal", "SQLite", "JUnit 6"],
     },
     "vetcare": {
